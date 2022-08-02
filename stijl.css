@@ -1,0 +1,65 @@
+ul a{
+color: black;
+text-decoration: none;
+}
+li{
+display: inline-block;
+height: 22px;
+width: 100px;
+padding: 12px;
+text-align: center;
+color: white;
+border-left: 2px solid DarkViolet;
+border-right: 1px solid DarkViolet;
+background-color: DarkMagenta;
+}
+li:hover{
+background-color: Fuchsia;
+border-style: none;
+color: white;
+}
+* {
+  background-color: Lavender;
+  font-family: Verdana, Arial;
+}
+table, th, td {
+  border: 1px solid;
+  background-color: DarkMagenta;
+  color: white;
+}
+th {
+  text-align: left;
+}
+input[type="text"], input[type="email"], textarea, button {
+  display: block;
+  margin: 15px 0px;
+}
+textarea {
+  width: 500px;
+  height: 150px;
+}
+button:active {
+  background-color: Fuchsia;
+  border-style: none;
+  color: white;
+}
+p {
+  background-color: MediumSlateBlue;
+}
+img {
+  border: 5px solid Indigo;
+}
+h2 {
+  background-color: Magenta;
+}
+form {
+  background-color: BlueViolet;
+}
+body {
+  margin: auto;
+  max-width: max-content;
+  padding: 5px;
+}
+header, footer {
+  padding: 5px;
+}
